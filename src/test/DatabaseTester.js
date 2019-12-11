@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux';
-import wireframJson from './WireFrameTestData.json';
+import wireframeJson from './WireFrameTestData.json';
 import { getFirestore } from 'redux-firestore';
 
 class DatabaseTester extends React.Component {

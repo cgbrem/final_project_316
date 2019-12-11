@@ -15,21 +15,19 @@ class App extends Component {
   render() {
     const { auth } = this.props;
 
-    // if auth is loaded then we render App.
-    // But if not then we doesn't render the one.
     if (auth.isLoaded) {
       return (
         <BrowserRouter>
           <div className="App">
-            <Navbar />
-            <Switch>
-              <Route exact path="/" component={HomeScreen} />
-              <Route path="/databaseTester" component={DatabaseTester} />
-              <Route path="/register" component={RegisterScreen} />
-              <Route path="/login" component={LoginScreen} />
-              <Route path="/wireframe/:id" component={WireframeScreen} />
-              <Route path="/:any" component={HomeScreen} />
-            </Switch>
+          <Navbar />
+             <Switch>
+               <Route exact path="/" component={HomeScreen} />
+               <Route path="/databaseTester" component={DatabaseTester} />
+               <Route path="/register" component={RegisterScreen} />
+               <Route path="/login" component={LoginScreen} />
+               <Route path="/wireframe/:id" component={WireframeScreen} />
+               <Route path="/:any" component={HomeScreen} />
+             </Switch>
           </div>
         </BrowserRouter>
       );
