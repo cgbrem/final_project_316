@@ -4,13 +4,8 @@
 
 `win32-x64-72` exists; testing
 Binary is fine; exiting
-
-> node-sass@4.0.0 install C:\Users\cgbre\OneDrive\Desktop\final_project_316\node_modules\node-sass
-> node scripts/install.js
-
-Downloading binary from https://github.com/sass/node-sass/releases/download/v4.0.0/win32-x64-72_binding.node
-
-> node-sass@4.0.0 postinstall C:\Users\cgbre\OneDrive\Desktop\final_project_316\node_modules\node-sass
-> node scripts/build.js
-
-Building: C:\Program Files\nodejs\node.exe C:\Users\cgbre\OneDrive\Desktop\final_project_316\node_modules\node-gyp\bin\node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
++ sass-loader@8.0.0
++ fibers@4.0.2
+added 2 packages from 3 contributors, updated 1 package and audited 905513 packages in 18.611s
+found 2 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
