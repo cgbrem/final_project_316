@@ -6,8 +6,17 @@
             "userID": "111412615",
             "width": "300px",
             "height": "200px",
+            "selectedKey": "",
+            "text": "",
+            "color": "",
+            "textSize": "",
+            "background": "",
+            "borderColor": "",
+            "borderThickness": "",
+            "borderRadius": "",
             "controls": [
                 { 
+                    "key": "0",
                     "containerType": "button",
                     "text": "TodoList 1",
                     "color": "black",
@@ -16,12 +25,14 @@
                     "borderColor": "black",
                     "borderThickness": "10px",
                     "borderRadius": "0px",
-                    "width": "20px",
-                    "height": "10px",
-                    "xCoordinate": "100",
-                    "yCoordinate": "170"
+                    "width": "80px",
+                    "height": "45px",
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "485px"
                 },
                 { 
+                    "key": "1",
                     "containerType": "button",
                     "text": "TodoList 2",
                     "color": "black",
@@ -30,12 +41,14 @@
                     "borderColor": "black",
                     "borderThickness": "10px",
                     "borderRadius": "0px",
-                    "width": "20px",
-                    "height": "10px",
-                    "xCoordinate": "100",
-                    "yCoordinate": "160"
+                    "width": "80px",
+                    "height": "45px",
+                    "position": "fixed",
+                    "top": "199px",
+                    "left": "485px"
                 },
                 { 
+                    "key": "2",
                     "containerType": "button",
                     "text": "TodoList 3",
                     "color": "black",
@@ -44,12 +57,14 @@
                     "borderColor": "black",
                     "borderThickness": "10px",
                     "borderRadius": "0px",
-                    "width": "20px",
-                    "height": "10px",
-                    "xCoordinate": "100",
-                    "yCoordinate": "150"
+                    "width": "80px",
+                    "height": "45px",
+                    "position": "fixed",
+                    "top": "260px",
+                    "left": "485px"
                 },
                 { 
+                    "key": "3",
                     "containerType": "container",
                     "text": "",
                     "color": "",
@@ -60,10 +75,12 @@
                     "borderRadius": "0px",
                     "width": "50px",
                     "height": "50px",
-                    "xCoordinate": "200",
-                    "yCoordinate": "170"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "640px"
                 },
                 { 
+                    "key": "4",
                     "containerType": "label",
                     "text": "TodoList App",
                     "color": "blue",
@@ -74,10 +91,12 @@
                     "borderRadius": "0px",
                     "width": "50px",
                     "height": "50px",
-                    "xCoordinate": "200",
-                    "yCoordinate": "145"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "640px"
                 },
                 { 
+                    "key": "5",
                     "containerType": "container",
                     "text": "",
                     "color": "",
@@ -87,11 +106,13 @@
                     "borderThickness": "10px",
                     "borderRadius": "0px",
                     "width": "300px",
-                    "height": "10px",
-                    "xCoordinate": "150",
-                    "yCoordinate": "200"
+                    "height": "25px",
+                    "position": "fixed",
+                    "top": "75px",
+                    "left": "485px"
                 },
                 { 
+                    "key": "6",
                     "containerType": "label",
                     "text": "NavBar",
                     "color": "white",
@@ -102,8 +123,9 @@
                     "borderRadius": "0px",
                     "width": "100px",
                     "height": "10px",
-                    "xCoordinate": "150",
-                    "yCoordinate": "190"
+                    "position": "fixed",
+                    "top": "75px",
+                    "left": "485px"
                 }
             ]
         },
@@ -113,8 +135,17 @@
             "userID": "111857615",
             "width": "350px",
             "height": "200px",
+            "selectedKey": "",
+            "text": "",
+            "color": "",
+            "textSize": "",
+            "background": "",
+            "borderColor": "",
+            "borderThickness": "",
+            "borderRadius": "",
             "controls": [
                 { 
+                    "key": "0",
                     "containerType": "textfield",
                     "text": "Input Cancer Cohort",
                     "color": "black",
@@ -125,10 +156,12 @@
                     "borderRadius": "0px",
                     "width": "20px",
                     "height": "10px",
-                    "xCoordinate": "50",
-                    "yCoordinate": "50"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "50px"
                 },
                 { 
+                    "key": "1",
                     "containerType": "textfield",
                     "text": "Input Cancer Gene",
                     "color": "black",
@@ -139,10 +172,12 @@
                     "borderRadius": "0px",
                     "width": "20px",
                     "height": "10px",
-                    "xCoordinate": "40",
-                    "yCoordinate": "40"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "40px"
                 },
                 { 
+                    "key": "2",
                     "containerType": "button",
                     "text": "Submit",
                     "color": "black",
@@ -153,10 +188,12 @@
                     "borderRadius": "0px",
                     "width": "20px",
                     "height": "10px",
-                    "xCoordinate": "30",
-                    "yCoordinate": "30"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "30px"
                 },
                 { 
+                    "key": "3",
                     "containerType": "container",
                     "text": "",
                     "color": "",
@@ -167,10 +204,12 @@
                     "borderRadius": "0px",
                     "width": "50px",
                     "height": "50px",
-                    "xCoordinate": "100",
-                    "yCoordinate": "100"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "100px"
                 },
                 { 
+                    "key": "4",
                     "containerType": "label",
                     "text": "Heatmap Chart",
                     "color": "blue",
@@ -181,10 +220,12 @@
                     "borderRadius": "0px",
                     "width": "50px",
                     "height": "50px",
-                    "xCoordinate": "100",
-                    "yCoordinate": "90"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "100px"
                 },
                 { 
+                    "key": "5",
                     "containerType": "container",
                     "text": "",
                     "color": "",
@@ -195,10 +236,12 @@
                     "borderRadius": "0px",
                     "width": "50px",
                     "height": "50px",
-                    "xCoordinate": "110",
-                    "yCoordinate": "100"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "110px"
                 },
                 { 
+                    "key": "6",
                     "containerType": "label",
                     "text": "Bar Graph",
                     "color": "blue",
@@ -209,10 +252,12 @@
                     "borderRadius": "0px",
                     "width": "50px",
                     "height": "50px",
-                    "xCoordinate": "110",
-                    "yCoordinate": "100"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "110px"
                 },
                 { 
+                    "key": "7",
                     "containerType": "container",
                     "text": "",
                     "color": "",
@@ -223,10 +268,12 @@
                     "borderRadius": "0px",
                     "width": "350px",
                     "height": "10px",
-                    "xCoordinate": "175",
-                    "yCoordinate": "200"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "175px"
                 },
                 { 
+                    "key": "8",
                     "containerType": "label",
                     "text": "NavBar",
                     "color": "white",
@@ -237,8 +284,9 @@
                     "borderRadius": "0px",
                     "width": "350px",
                     "height": "10px",
-                    "xCoordinate": "175",
-                    "yCoordinate": "190"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "175px"
                 }
             ]
         },
@@ -248,8 +296,17 @@
             "userID": "111900033",
             "width": "250px",
             "height": "200px",
+            "selectedKey": "",
+            "text": "",
+            "color": "",
+            "textSize": "",
+            "background": "",
+            "borderColor": "",
+            "borderThickness": "",
+            "borderRadius": "",
             "controls": [
                 { 
+                    "key": "0",
                     "containerType": "textfield",
                     "text": "WiCS Homepage NavBar",
                     "color": "black",
@@ -260,10 +317,12 @@
                     "borderRadius": "0px",
                     "width": "20px",
                     "height": "10px",
-                    "xCoordinate": "125",
-                    "yCoordinate": "180"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "125px"
                 },
                 { 
+                    "key": "1",
                     "containerType": "textfield",
                     "text": "Cover Photo",
                     "color": "black",
@@ -274,10 +333,12 @@
                     "borderRadius": "0px",
                     "width": "20px",
                     "height": "10px",
-                    "xCoordinate": "125",
-                    "yCoordinate": "160"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "125px"
                 },
                 { 
+                    "key": "2",
                     "containerType": "textfield",
                     "text": "About Paragraph",
                     "color": "black",
@@ -288,10 +349,12 @@
                     "borderRadius": "0px",
                     "width": "20px",
                     "height": "10px",
-                    "xCoordinate": "125",
-                    "yCoordinate": "140"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "125px"
                 },
                 { 
+                    "key": "3",
                     "containerType": "label",
                     "text": "Women In Computer Science Title",
                     "color": "blue",
@@ -302,8 +365,9 @@
                     "borderRadius": "0px",
                     "width": "50px",
                     "height": "50px",
-                    "xCoordinate": "125",
-                    "yCoordinate": "125"
+                    "position": "fixed",
+                    "top": "138px",
+                    "left": "125px"
                 }
             ]
         }
