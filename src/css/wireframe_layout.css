@@ -1,5 +1,6 @@
 #properties {
     height: 500px;
+    width: 155px;
 }
 #container-panel {
     height: 500px;
@@ -10,4 +11,15 @@
 #container-button, #label-button, #button-actual, #textfield-button {
     width: 50px;
     height: 50px;
+}
+.change {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#zoom {
+    width: 244px;
+    margin-top: 10px;
+}
+#container-panel {
+    width: 265px;
 }
