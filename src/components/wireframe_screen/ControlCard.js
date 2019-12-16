@@ -42,6 +42,7 @@ class ControlCard extends React.Component {
                 style={divStyle}
                 position={{ x: this.state.x, y: this.state.y }}
                 onClick={(e) => {
+                    e.stopPropagation();
                     const {target} = e;
                     const key = this.props.control.key;
                     const newControls = this.props.wireframe.controls;
